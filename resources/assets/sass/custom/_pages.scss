@@ -1,0 +1,85 @@
+html, body{
+    height: 100%;
+}
+
+.button-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button-group .btn, .add_item{
+    width: 10px;
+    display: flex!important;
+    justify-content: center;
+}
+
+.inventory-pagination{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.add_item{
+    margin: 20px 20px 0 0;
+}
+
+.nav-link{
+    color: #ffffff!important;
+}
+
+#navbarDropdown{
+    color: #ffffff!important;
+}
+
+.page-content{
+    height: 100%;
+}
+
+.has-error{
+    border: 1px solid red!important;
+}
+
+.card-body{
+    overflow: auto!important;
+}
+
+.edit-btn, .add_item{
+    width: 10px!important;
+}
+
+.delete-btn{
+    color: red!important;
+}
+
+.panel-primary{
+    width: 100%!important;
+}
+
+.overflow-hide{
+    overflow: hidden!important;
+}
+
+.action-form input, .action-form button, .action-form textarea{
+    margin-bottom: 20px;
+}
+
+.datatable-header, .datatable-footer {
+    padding: 0!important;
+}
+
+.card-body {
+    padding: 0 1.25rem 0 1.25rem!important;
+}
+
+.panel-primary {
+    display: flex!important;
+    flex-direction: column!important;;
+    align-items: center!important;;
+    justify-content: center!important;;
+}
+
+.col-md-5 {
+    flex: auto!important;
+}
+

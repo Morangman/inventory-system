@@ -1,0 +1,20 @@
+parameters:
+  git_dir: .
+  bin_dir: vendor/bin
+  tasks:
+    phpcs:
+      standard: "phpcs.xml"
+      tab_width: 4
+      triggered_by: [php]
+      ignore_patterns:
+        - "tests/*"
+        - "*.blade.php"
+        - "resources/assets/*"
+        - "resources/lang/*"
+    fqn_checker: ~
+
+services:
+  task.fqn_checker:
+    class: McMatters\Grumphp\FqnChecker\FqnCheckerTask
+    tags:
+      - {name: grumphp.task, config: fqn_checker}
